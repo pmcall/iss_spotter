@@ -9,7 +9,7 @@ const printPassTimes = function(passTimes) {
   }
 };
 
-  nextISSTimesForMyLocation()
+nextISSTimesForMyLocation()
   .then((passTimes) => {
     printPassTimes(passTimes);
   })
